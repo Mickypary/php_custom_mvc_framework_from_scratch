@@ -1,0 +1,4 @@
+RewriteEngine On
+# meaning whatever is in the url, request index.php instead
+#RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
+RewriteRule ^ index.php
